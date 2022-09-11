@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header, #main{
+    position: absolute;
+}
+
+.nen{
+    height:7.48in;
+    width: 15.8in;
+    opacity: 0.9;
+   
+}
+
+h1 {
+    display: block;
+    /* padding-top: 50px; */
+    /* text-align: center;
+    justify-content: center; */
+   padding-left: 520px;
+    padding-top: 20px;
+    color: rgb(251, 250, 248);
+    font-size:xx-large;
+}
+
+h3{
+    display: block;
+    margin-left: 16px;
+    color: rgb(62, 60, 60);
+}
+
+#trai{
+    width: 850px;
+  height: 590px;
+  margin-left: 100px;
+  background: rgb(247, 246, 246);
+  line-height: 2.5;
+  /* display: flex; */
+  float: left;
+}
+
+#subnav{
+    display: flex;
+}
+
+label{
+    margin-left: 16px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px;
+    margin-left: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.mess > input[type=text]{
+   padding: 80px;
+}
+
+.input-textarea{
+    min-height: 120px;
+    width: 95%;
+    padding: 80px;
+    resize: vertical;
+    margin-left: 16px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type=submit] {
+    background-color: #e03a71;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+ 
+input[type=submit]:hover {
+    background-color: #e03a71;
+}
+
+
+
+#phai{
+ float: right;
+ margin-left: 20px;
+}
+
+.tren{
+    width: 425px;
+    height: 300px;
+    margin-left: 10px;
+    background: rgb(34, 40, 101);
+    line-height: 2.5;
+   color: rgb(250, 250, 250);
+   margin-top: -12px;
+}
+
+span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgb(37, 107, 218);
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    margin-left: 20px;
+    padding-left: 12px;
+    border: 1px solid white;
+ 
+}
+
+h4{
+    display: block;
+    margin-top:12px ;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+a{
+   display:block;
+   margin-top: -40px;
+   margin-left: 80px;
+    line-height: 45px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icon{
+    line-height: 22px;
+}
+
+.icon_duoi{
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.icon_duoi >i{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+.duoi{
+   min-height: 300px;
+
+}
+
+   
+
+
+
